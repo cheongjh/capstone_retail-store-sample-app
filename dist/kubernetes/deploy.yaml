@@ -1063,8 +1063,8 @@ metadata:
     app.kubernetes.io/managed-by: Helm
 spec:
 #  type: LoadBalancer
-#  type: NodePort
-  type: ClusterIP
+  type: NodePort
+#  type: ClusterIP
 #  externalIPs:
 #  - 192.168.0.10
   ports:
